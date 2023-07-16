@@ -14,7 +14,6 @@ $color-black: #000
 *, *:before, *:after {
     /* emmet: bxz */
     box-sizing: border-box;
-    transition-duration: 0.5s;
 }
 
 html, body{
@@ -43,6 +42,7 @@ html, body{
     padding: 16px;
     border-radius: 32px;
     padding: 12px 24px;
+    transition-duration: 0.5s;
 }
 
 .mr-24{ margin-right: 24px; }
@@ -64,6 +64,7 @@ html, body{
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 40px;
+    transition-duration: 0.5s;
 }
 
 .nav-list li:hover{
@@ -90,6 +91,7 @@ html, body{
 
 .header .btn{
     float: right;
+    transition-duration: 0.5s;
 }
 
 .header .btn:hover{
@@ -178,6 +180,7 @@ html, body{
 
 .socialMedia img{
     width: 162px;
+    transition-duration: 0.5s;
 }
 
 .socialMedia img:hover{
