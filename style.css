@@ -115,6 +115,10 @@ html, body{
     margin-bottom: 32px;
 }
 
+.sparkles{
+    justify-content: start;
+}
+
 .sparkles li{
     margin-right: 8px;
 }
