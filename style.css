@@ -36,6 +36,11 @@ html, body{
     align-items: center;
 }
 
+.title{
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+
 .btn{
     background-color: #fff;
     color:#000;
@@ -53,7 +58,7 @@ html, body{
   
 .mr-20{ margin-right: 20px; }
 
-.mr-8{ margin-right: 8px; }
+/* .mr-8{ margin-right: 8px; } */
   
 .p-160{ padding: 160px 0; }
   
@@ -89,13 +94,8 @@ html, body{
     text-align: right;
 }
 
-.header h2{
-    font-size: 64px;
-}
-
 .header .btn{
     float: right;
-    transition-duration: 0.5s;
 }
 
 /* intro */
@@ -110,14 +110,13 @@ html, body{
     align-items: start;
 }
 
-.intro h2{
-    font-size: 64px;
-    margin-bottom: 36px;
-}
-
 .intro p{
     font-size: 24px;
     margin-bottom: 32px;
+}
+
+.sparkles img{
+    margin-right: 8px;
 }
 
 /* about */
@@ -153,11 +152,6 @@ html, body{
     width: 526px;
 }
 
-.about-content h2{
-    font-size: 64px;
-    margin-bottom: 36px;
-}
-
 .about-content p{
     font-size: 24px;
 }
@@ -174,7 +168,6 @@ html, body{
 }
 
 .contact h2{
-    font-size: 64px;
     color: white;
 }
 
@@ -192,7 +185,6 @@ html, body{
 
 
 .pj-title{
-    font-size: 64px;
     position: absolute;
     right: 0;
     width: 746px;
