@@ -45,6 +45,10 @@ html, body{
     transition-duration: 0.5s;
 }
 
+.btn:hover{
+    transform: translate(-3px,-3px);
+}
+
 .mr-24{ margin-right: 24px; }
   
 .mr-20{ margin-right: 20px; }
@@ -68,7 +72,7 @@ html, body{
 }
 
 .nav-list li:hover{
-    border-bottom: 3px solid #D1D1D1;
+    color:#00FFA3;
 }
 
 /* header */
@@ -92,10 +96,6 @@ html, body{
 .header .btn{
     float: right;
     transition-duration: 0.5s;
-}
-
-.header .btn:hover{
-    background-color: #E3E3E3;
 }
 
 /* intro */
@@ -184,7 +184,7 @@ html, body{
 }
 
 .socialMedia img:hover{
-    transform: translate(3px,3px);
+    transform: translate(-3px,-3px);
 }
 
 /* project */
@@ -214,10 +214,7 @@ html, body{
 .pj-list-1 .btn{
     background-color: #000;
     color: white;
-}
-
-.pj-list-1 .btn:hover{
-    opacity: 0.7;
+    float: left;
 }
 
 /* footer */
