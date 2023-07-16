@@ -171,6 +171,10 @@ html, body{
     width: 162px;
 }
 
+.socialMedia img:hover{
+    transform: translate(3px 3px);
+}
+
 /* project */
 
 
